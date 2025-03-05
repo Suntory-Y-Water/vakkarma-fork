@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => {
       external: ["iconv-lite", "encoding-japanese"],
     },
     server: {
-      port: 80,
+      port: 5173,
       // 一般公開
       host: true,
     },
